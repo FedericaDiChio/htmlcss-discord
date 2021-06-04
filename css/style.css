@@ -43,7 +43,6 @@ body {
 .txt-s {
     font-size: 12px;
     font-weight: bold;
-
 }
 
 /* bottoni */
@@ -136,30 +135,26 @@ header .top {
     height: 400px;
 }
 
-.container .content {
+.content {
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     width: 650px;
+    
 }
 
-.container .content h1 {
+.content h1 {
     font-size: 45px;
     padding-bottom: 40px;
 }
 
-.container .content p {
+.content p {
     line-height: 1.5em;
+    padding-bottom: 30px;
 }
 
-.container .content .big-btn {
-   margin-top: 40px;
-   margin-left: 30px;
-}
-
-
-.container .content .big-btn a{
+.content .big-btn a:last-child{
     margin-left: 20px;
 }
  
@@ -180,4 +175,14 @@ header .top {
 .box-txt p {
     padding-top: 20px;
     line-height: 1.5em;
+}
+
+
+footer {
+    height: 500px;
+    background-color: darkgray;
+}
+
+.col.w-15 {
+    width: 15%;
 }
