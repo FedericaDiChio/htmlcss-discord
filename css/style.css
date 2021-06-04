@@ -16,13 +16,24 @@
     clear:both;
 }
 
+/* utilities */
+
+.txt-center {
+    text-align: center;
+}
+
+.txt-right {
+    text-align: right;
+}
+
+
 /* header  */
 header {
     height: 500px;
     background-color: blueviolet;
 }
 
-header .topbar {
+header .top {
     height: 80px;
     background-color: blue;
     line-height: 80px;
@@ -44,3 +55,16 @@ header .topbar {
 .col.w-60 {
     width: 60%;
 }
+
+/* menu nav */
+
+.menu li {
+    display: inline-block;
+    margin: 0 20px;
+    color: white;
+}
+.menu li a {
+    text-decoration: none;
+    
+}
+
