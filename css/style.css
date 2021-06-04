@@ -8,6 +8,7 @@
 body {
     font-family: Whitney, 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
+
 .container {
     max-width: 1000px;
     margin: 0 auto;
@@ -29,6 +30,18 @@ body {
     text-align: right;
 }
 
+/* colonne */
+
+.col {
+    float: left;
+}
+.col.w-20 {
+    width: 20%;
+}
+
+.col.w-60 {
+    width: 60%;
+}
 
 /* header  */
 header {
@@ -46,28 +59,43 @@ header .top {
     vertical-align: middle;
 }
 
-/* colonne */
 
-.col {
-    float: left;
-}
-.col.w-20 {
-    width: 20%;
-}
-
-.col.w-60 {
-    width: 60%;
-}
-
-/* menu nav */
+/* menu centrale */
 
 .menu li {
     display: inline-block;
     margin: 0 20px;
-    color: white;
+    
 }
 .menu li a {
     text-decoration: none;
     
 }
+
+/* bottoni */
+
+.btn {
+    border-radius: 20px;
+    text-decoration: none;
+}
+
+.btn.btn-light {
+    color: #000;
+    background-color: #fff;
+}
+
+.btn.btn-dark {
+    color:#fff;
+    background-color: #000;
+}
+
+.btn.btn-s {
+    padding: 10px 15px;
+}
+
+.btn.btn-l {
+    padding: 20px 25px;
+}
+
+/* spotlight  */
 
