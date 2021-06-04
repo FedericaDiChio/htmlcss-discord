@@ -42,7 +42,12 @@ body {
 
 .txt-s {
     font-size: 12px;
-    font-weight: bold;
+    
+}
+
+.txt-l {
+    font-size: 38px;
+    font-weight: 700;
 }
 
 /* bottoni */
@@ -64,7 +69,6 @@ body {
 
 .btn.btn-s {
     padding: 10px 15px;
-    
 }
 
 .btn.btn-l {
@@ -91,11 +95,12 @@ body {
 /* header  */
 header {
     height: 500px;
+    margin-bottom: 100px;
 }
 
 header .top {
     height: 80px;
-    background-color: blue;
+    background-color: rgb(49, 97, 224);
     line-height: 80px;
 }
 
@@ -122,20 +127,21 @@ header .top {
 
 /* spotlight  */
 
-.spotlight {
+#spotlight {
     background-image: url(../img/jumbo.png);
     background-position: center;
     background-size: cover;
+    height: 450px;
+    
+}
+
+#spotlight .container {
+    position: relative;
     height: 400px;
     
 }
 
-.spotlight .container {
-    position: relative;
-    height: 400px;
-}
-
-.content {
+#spotlight .container .content {
     position: absolute;
     top: 50%;
     left: 50%;
@@ -144,13 +150,12 @@ header .top {
     
 }
 
-.content h1 {
+.content h2 {
     font-size: 45px;
     padding-bottom: 40px;
 }
 
 .content p {
-    line-height: 1.5em;
     padding-bottom: 30px;
 }
 
@@ -163,18 +168,16 @@ header .top {
 
 .img-main {
     width: 600px;
-    padding-top: 40px;
 }
 
 .box-txt {
-    width: 250px;
-    padding-top: 70px;
-    margin-left: 50px;
+    width: 300px;
+    padding: 40px 0 0 60px;
 }
 
 .box-txt p {
     padding-top: 20px;
-    line-height: 1.5em;
+
 }
 
 
@@ -183,6 +186,6 @@ footer {
     background-color: darkgray;
 }
 
-.col.w-15 {
+/* .col.w-15 {
     width: 15%;
-}
+} */
