@@ -40,6 +40,12 @@ body {
     font-weight: bold;
 }
 
+.txt-s {
+    font-size: 12px;
+    font-weight: bold;
+
+}
+
 /* bottoni */
 
 .btn {
@@ -59,7 +65,7 @@ body {
 
 .btn.btn-s {
     padding: 10px 15px;
-    font-size: 12px;
+    
 }
 
 .btn.btn-l {
@@ -77,6 +83,10 @@ body {
 
 .col.w-60 {
     width: 60%;
+}
+
+.col.w-40 {
+    width: 40%;
 }
 
 /* header  */
@@ -100,11 +110,14 @@ header .top {
 .menu li {
     display: inline-block;
     margin: 0 20px;
-    
 }
+
+.menu li:hover {
+    text-decoration: underline;
+}
+
 .menu li a {
     text-decoration: none;
-    
 }
 
 
@@ -140,13 +153,31 @@ header .top {
     line-height: 1.5em;
 }
 
-.container .content .button {
+.container .content .big-btn {
    margin-top: 40px;
    margin-left: 30px;
 }
 
 
-.container .content .button a{
+.container .content .big-btn a{
     margin-left: 20px;
 }
+ 
+/* corpo centrale */
 
+
+.img-main {
+    width: 600px;
+    padding-top: 40px;
+}
+
+.box-txt {
+    width: 250px;
+    padding-top: 70px;
+    margin-left: 50px;
+}
+
+.box-txt p {
+    padding-top: 20px;
+    line-height: 1.5em;
+}
