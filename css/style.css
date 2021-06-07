@@ -32,12 +32,11 @@ body {
 
 .txt-light {
     color: #fff;
-    font-weight: bold;
 }
 
 .txt-dark {
     color: #000;
-    font-weight: bold;
+    
 }
 
 .txt-s {
@@ -46,7 +45,7 @@ body {
 }
 
 .txt-l {
-    font-size: 32px;
+    font-size: 42px;
     font-weight: 700;
 }
 
@@ -92,6 +91,11 @@ body {
     width: 40%;
 }
 
+.col.w-15 {
+    width: 15%;
+    padding-top: 45px;
+}
+
 /* header  */
 header {
     height: 500px;
@@ -104,7 +108,7 @@ header .top {
     line-height: 80px;
 }
 
-#logo {
+.logo {
     vertical-align: middle;
 }
 
@@ -180,12 +184,60 @@ header .top {
 
 }
 
-
+/* footer  */
 footer {
     height: 500px;
-    background-color: darkgray;
+    background-color: rgb(35, 39, 42); 
 }
 
-/* .col.w-15 {
-    width: 15%;
-} */
+/* icone */
+.icons {
+    width: 300px;
+}
+
+.icons i {
+    margin-right: 20px;
+    color: white;
+    padding-top: 20px;
+}
+
+.icons .lang-icon {
+    width: 20px;
+}
+
+.icons h4 {
+    font-size: 30px;
+    font-weight: 700;
+    padding-top: 60px;
+}
+
+.txt-grey {
+    color: rgb(114, 137, 218);
+}
+
+/* collegamenti  */
+
+.col.w-15 li {
+    list-style-type: none;
+    margin-top: 10px;
+}
+.col.w-15 li a {
+    text-decoration: none;
+    color: white;
+    
+}
+
+.col.w-15 li a:hover {
+    text-decoration: underline;
+}
+
+hr {
+    margin-top: 30px;
+    border-color: rgb(114, 137, 218);
+    
+}
+
+footer .logo {
+    padding-top: 30px;
+    width: 100px;
+} 
