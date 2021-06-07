@@ -10,7 +10,7 @@ body {
 }
 
 .container {
-    max-width: 1000px;
+    max-width: 1200px;
     margin: 0 auto;
 }
 
@@ -22,6 +22,8 @@ body {
 
 /* utilities */
 
+/* testo */
+
 .txt-center {
     text-align: center;
 }
@@ -30,23 +32,6 @@ body {
     text-align: right;
 }
 
-.txt-light {
-    color: #fff;
-}
-
-.txt-dark {
-    color: #000;
-}
-
-.txt-s {
-    font-size: 14px;
-    
-}
-
-.txt-l {
-    font-size: 42px;
-    font-weight: 700;
-}
 
 /* bottoni */
 
@@ -149,41 +134,45 @@ header .top {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    width: 650px;
+    
     
 }
 
-.content h2 {
+#spotlight h1 {
     font-size: 45px;
     padding-bottom: 40px;
 }
 
-.content p {
+#spotlight p {
     padding-bottom: 30px;
     
 }
 
-.content .big-btn a:last-child {
+#spotlight .big-btn a:last-child {
     margin-left: 20px;
 }
  
 /* corpo centrale */
 
 
-.img-main {
-    width: 600px;
+main section {
+    padding: 50px 0;
+    
 }
 
-.box-txt {
-    width: 300px;
-    padding: 40px 0 0 60px;
+main h2 {
+    font-size: 45px;
+    padding-top: 30px;
+    padding-bottom: 20px;
 }
 
-.box-txt p {
-    padding-top: 20px;
+main p {
     line-height: 1.5em;
-
 }
+
+
+
+
 
 /* footer  */
 footer {
@@ -206,15 +195,13 @@ footer {
     width: 20px;
 }
 
-.icons h4 {
+.icons h3 {
     font-size: 30px;
     font-weight: 700;
     padding-top: 60px;
 }
 
-.txt-grey {
-    color: rgb(114, 137, 218);
-}
+
 
 /* collegamenti  */
 
