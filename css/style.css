@@ -10,7 +10,7 @@ body {
 }
 
 .container {
-    max-width: 1200px;
+    max-width: 1280px;
     margin: 0 auto;
 }
 
@@ -21,6 +21,10 @@ body {
 }
 
 /* utilities */
+
+.bg-grey {
+    background-color: rgb(229, 229, 229);
+}
 
 /* testo */
 
@@ -157,7 +161,6 @@ header .top {
 
 main section {
     padding: 50px 0;
-    
 }
 
 main h2 {
@@ -171,7 +174,16 @@ main p {
 }
 
 
+/* onda */
+.wave {
+    background-image: url(../img/wave.svg);
+    height:100px;
+    filter:opacity(0.1);
+}
 
+.reverse {
+    transform: rotate(180deg);
+}
 
 
 /* footer  */
