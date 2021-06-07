@@ -36,11 +36,10 @@ body {
 
 .txt-dark {
     color: #000;
-    
 }
 
 .txt-s {
-    font-size: 12px;
+    font-size: 14px;
     
 }
 
@@ -161,6 +160,7 @@ header .top {
 
 .content p {
     padding-bottom: 30px;
+    
 }
 
 .content .big-btn a:last-child {
@@ -181,6 +181,7 @@ header .top {
 
 .box-txt p {
     padding-top: 20px;
+    line-height: 1.5em;
 
 }
 
